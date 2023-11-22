@@ -1,0 +1,199 @@
+{
+  "Apples": [
+    {
+      "id": 2,
+      "name": "Product 2 ",
+      "image": "https://www.ripleys.com/wp-content/uploads/2020/05/shutterstock_577486126-1024x768.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Product 2",
+      "image": "https://media.post.rvohealth.io/wp-content/uploads/2020/09/Do_Apples_Affect_Diabetes_and_Blood_Sugar_Levels-732x549-thumbnail-1-732x549.jpg"
+    },
+    {
+      "name": "hero Product",
+      "detail": "Lorem ipsum dolor sit amet",
+      "price": "99",
+      "hero": "OMG This just came out today!",
+      "image": "http://placehold.it/940x300/999/CCC"
+    },{
+      "name": "Product 1",
+      "detail": "Lorem ipsum dolor sit amet",
+      "price": "99",
+      "info": "This is the latest and greatest product from Derp corp.",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },{
+      "name": "Product 2",
+      "detail": "Lorem ipsum dolor sit amet",
+      "price": "99",
+      "offer": "BOGOF",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },{
+      "name": "Product 3",
+      "detail": "Lorem ipsum dolor sit amet",
+      "price": "99",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },{
+      "name": "Product 4",
+      "detail": "Lorem ipsum dolor sit amet",
+      "price": "99",
+      "offer": "No srsly GTFO",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },{
+      "name": "Product 5",
+      "detail": "Lorem ipsum dolor sit amet",
+      "price": "99",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },{
+      "name": "Product 6",
+      "detail": "Lorem ipsum dolor sit amet",
+      "price": "99",
+      "info": "This is the latest and greatest product from Derp corp.",
+      "offer": "info with offer",
+      "image": "http://placehold.it/300x300/999/CCC"
+    }
+    
+  ],
+
+
+  "Saffron":[
+    {
+      "name": "Mongra saffron",
+      "detail": "Best Top Quality Pure Original 100% Organic ",
+      "price": "999",
+      "info": "Finest quality of saffron that contains red stigmas, picked up by the hand",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },{
+      "name": "Lacha saffron",
+      "detail": " Original 100% Organic ",
+      "price": "899",
+      "info": "Contains yellow stigmas mixed with the red ones",
+      "image": "http://placehold.it/300x300/999/CCC"
+    }
+  ],
+
+
+  "Clothing": [
+    {
+      "name": "Casual Shirt",
+      "detail": "Comfortable cotton shirt",
+      "price": "25",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Casual Shirt",
+      "detail": "Comfortable cotton shirt",
+      "price": "25",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Casual Shirt",
+      "detail": "Comfortable cotton shirt",
+      "price": "25",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Casual Shirt",
+      "detail": "Comfortable cotton shirt",
+      "price": "25",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Casual Shirt",
+      "detail": "Comfortable cotton shirt",
+      "price": "25",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Casual Shirt",
+      "detail": "Comfortable cotton shirt",
+      "price": "25",
+      "image": "http://placehold.it/300x300/999/CCC"
+    }
+  ],
+
+
+  "Sweets": [
+    {
+      "name": "Kashmiri Shufta",
+      "detail": "Delicious mix of nuts and sweets",
+      "price": "20",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Kashmiri Shufta",
+      "detail": "Delicious mix of nuts and sweets",
+      "price": "20",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Kashmiri Shufta",
+      "detail": "Delicious mix of nuts and sweets",
+      "price": "20",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },    {
+      "name": "Kashmiri Shufta",
+      "detail": "Delicious mix of nuts and sweets",
+      "price": "20",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },    {
+      "name": "Kashmiri Shufta",
+      "detail": "Delicious mix of nuts and sweets",
+      "price": "20",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },    {
+      "name": "Kashmiri Shufta",
+      "detail": "Delicious mix of nuts and sweets",
+      "price": "20",
+      "image": "http://placehold.it/300x300/999/CCC"
+    }
+  ],
+
+
+  "Home-Accessories": [
+    {
+      "name": "Decorative Vase",
+      "detail": "Ceramic vase for home decor",
+      "price": "45",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Decorative Vase",
+      "detail": "Ceramic vase for home decor",
+      "price": "45",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },    {
+      "name": "Decorative Vase",
+      "detail": "Ceramic vase for home decor",
+      "price": "45",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Decorative Vase",
+      "detail": "Ceramic vase for home decor",
+      "price": "45",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Decorative Vase",
+      "detail": "Ceramic vase for home decor",
+      "price": "45",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Decorative Vase",
+      "detail": "Ceramic vase for home decor",
+      "price": "45",
+      "image": "http://placehold.it/300x300/999/CCC"
+    },
+    {
+      "name": "Decorative Vase",
+      "detail": "Ceramic vase for home decor",
+      "price": "45",
+      "image": "http://placehold.it/300x300/999/CCC"
+    }
+  ]
+
+}
+
+

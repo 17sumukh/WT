@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f7f7f7;
+        }
+
+        .signup-container {
+            padding: 2rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            width: 300px;
+        }
+
+        .signup-container h2 {
+            text-align: center;
+            margin-bottom: 1rem;
+        }
+
+        .signup-container input,
+        .signup-container select {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .signup-container button {
+            width: 100%;
+            padding: 0.5rem;
+            border: none;
+            background: #5c6bc0;
+            color: white;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .signup-container button:hover {
+            background: #3949ab;
+        }
+
+        .signup-container .login-prompt {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        .signup-container .login-prompt a {
+            color: #5c6bc0;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <input type="text" id="name" placeholder="Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="tel" id="mobile-number" placeholder="Mobile Number" required>
+        <select id="country">
+            <option value="">Select Country</option>
+            <!-- Populate with countries -->
+        </select>
+        <input type="text" id="residency-name" placeholder="Name of Residency" required>
+        <input type="text" id="city" placeholder="City" required>
+        <input type="text" id="pincode" placeholder="Pincode" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <button id="submit">Sign Up</button>
+        <p class="login-prompt">
+            Already have an account? <a href="login.html">Login</a>
+        </p>
+    </div>
+
+    <script>
+        // Placeholder for sign-up functionality
+        document.getElementById('submit').addEventListener('click', function() {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            // You would continue retrieving all the other form inputs similarly
+
+            // Here you would typically send the user's data to your server for processing
+            console.log('Attempt to sign up with', name, email);
+            // For now, we'll just log to the console
+        });
+    </script>
+</body>
+</html>

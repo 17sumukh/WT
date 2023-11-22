@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons</title>
+</head>
+<style>
+    #container {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        border-radius: 50px;
+        height: 40px;
+        width: 120px;
+        font-size: large;
+        margin: 10px;
+    }
+
+    .button-a {
+        background-color: rgb(165, 207, 193);
+        box-shadow: 0 10px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .button-b {
+        background-color: rgb(207, 165, 193);
+        box-shadow: 0 10px 6px rgba(0, 0, 0, 0.5);
+    }
+
+    .button:hover {
+        animation: scaleAndShadow 1s ease-in-out;
+    }
+
+    @keyframes scaleAndShadow {
+        0% {
+            transform: scale(1);
+            box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.6);
+        }
+        25% {
+            box-shadow: 0 5px 6px 0 rgba(0, 0, 0, 0.7);
+        }
+        50% {
+            transform: scale(1.1);
+            box-shadow: 0 40px 6px 0 rgba(0, 0, 0, 0.5);
+        }
+        75% {
+            box-shadow: 0 30px 6px 0 rgba(0, 0, 0, 0.1);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+<body>
+    <div id="container">
+        <button class="button button-a">Button 1</button>
+        <button class="button button-b">Button 2</button>
+    </div>
+</body>
+</html>
+
+

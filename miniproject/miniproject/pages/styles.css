@@ -1,0 +1,108 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the header navigation */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  header li {
+    margin: 0 20px;
+  }
+  
+  header a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Style for the hero section */
+  .hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .hero a {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style for featured products section */
+  .featured-products {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .product-card {
+    display: inline-block;
+    width: 250px;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card h3 {
+    font-size: 24px;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .product-card span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .product-card a {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Style for the footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

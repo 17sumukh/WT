@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Products</title>
+  <style>
+    /* CSS styles for the product cards */
+    .product-card {
+      display: inline-block;
+      width: 300px; /* Adjust the width as needed */
+      border: 1px solid #ddd;
+      margin: 10px;
+      padding: 10px;
+      text-align: center;
+    }
+    
+    .product-card img {
+      max-width: 100%;
+      height: auto;
+      max-height: 200px; /* Set a maximum height for the images */
+    }
+
+    .category-container {
+      margin-bottom: 40px;
+    }
+
+    .category-title {
+      text-align: center;
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="contact.html">Contact</a></li> <!-- Assuming you have a contact.html -->
+        <li><a href="login.html">Login</a></li> <!-- Link to login.html -->
+        <li><a href="signup.html">Sign Up</a></li> <!-- Link to signup.html -->
+        <li><a href="../chat/chat-app.html">Chat</a></li>
+        <li><a href="account.html">Account</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="product-container"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 E-Marketplace</p>
+  </footer>
+  <script>
+    fetch('http://localhost:8000/product-list.json')
+      .then(response => response.json())
+      .then(data => {
+        const mainContainer = document.getElementById('product-container');
+
+        Object.keys(data).forEach(category => {
+          const categoryContainer = document.createElement('section');
+          categoryContainer.className = 'category-container';
+
+          const categoryTitle = document.createElement('h1');
+          categoryTitle.className = 'category-title';
+          categoryTitle.textContent = category;
+          categoryContainer.appendChild(categoryTitle);
+
+          data[category].forEach(product => {
+            const productDiv = document.createElement('div');
+            productDiv.className = 'product-card';
+
+            const productImage = document.createElement('img');
+            productImage.src = product.image;
+            productImage.alt = product.name;
+            productDiv.appendChild(productImage);
+
+            const productName = document.createElement('h2');
+            productName.textContent = product.name;
+            productDiv.appendChild(productName);
+
+            const productDetail = document.createElement('p');
+            productDetail.textContent = product.detail;
+            productDiv.appendChild(productDetail);
+
+            const productPrice = document.createElement('span');
+            productPrice.textContent = `$${product.price}`;
+            productDiv.appendChild(productPrice);
+
+            categoryContainer.appendChild(productDiv);
+          });
+
+          mainContainer.appendChild(categoryContainer);
+        });
+      })
+      .catch(error => console.error('Error fetching JSON data:', error));
+  </script>
+</body>
+</html>
