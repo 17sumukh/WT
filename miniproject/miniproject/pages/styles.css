@@ -1,108 +1,189 @@
 /* Reset some default styles */
 body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Style for the header navigation */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-  }
-  
-  header ul {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-  }
-  
-  header li {
-    margin: 0 20px;
-  }
-  
-  header a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  /* Style for the hero section */
-  .hero {
-    background-image: url('hero-background.jpg');
-    background-size: cover;
-    text-align: center;
-    padding: 100px 0;
-  }
-  
-  .hero h1 {
-    font-size: 36px;
-  }
-  
-  .hero p {
-    font-size: 18px;
-    margin: 20px 0;
-  }
-  
-  .hero a {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
-  /* Style for featured products section */
-  .featured-products {
-    text-align: center;
-    margin: 50px 0;
-  }
-  
-  .product-card {
-    display: inline-block;
-    width: 250px;
-    border: 1px solid #ddd;
-    margin: 10px;
-    padding: 10px;
-    text-align: center;
-  }
-  
-  .product-card img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .product-card h3 {
-    font-size: 24px;
-  }
-  
-  .product-card p {
-    font-size: 16px;
-    margin: 10px 0;
-  }
-  
-  .product-card span {
-    font-size: 18px;
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .product-card a {
-    display: block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-decoration: none;
-    margin: 10px 0;
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  
-  /* Style for the footer */
-  footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Style for the header navigation */
+header {
+  background-color:rgba(237, 78, 20, 0.833);
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 30px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+header li {
+  margin: 0 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style for the hero section */
+.hero {
+  background-image: url('hero-background.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 36px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.hero a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Style for featured products section */
+.featured-products {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.product-card {
+  display: inline-block;
+  width: 250px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card h3 {
+  font-size: 24px;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.product-card span {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-card a {
+  display: block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* Style for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.carousel-inner img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev, .carousel-control-next {
+  width: 3%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  opacity: 0.7;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  color: #fff;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+  opacity: 0.9;
+}
+
+.carousel-indicators {
+  bottom: -40px;
+}
+
+.carousel-indicators li {
+  background-color: #343a40;
+  border-radius: 50%;
+  border: 1px solid #fff;
+}
+
+.carousel-indicators .active {
+  background-color: #fff;
+}
+
+.title-wrap .main-title {
+
+color: #2f83c5;
+font-weight: 600;
+font-size: 36px;
+margin-top: 50px;
+margin: bottom 50px;;
+
+}
+
+.title-wrap .main-title-2{
+
+color: #e64123 !important;
+font-weight: 100;
+font-size: 36px;
+margin-bottom: 50px;
+
+}
+
+.main-text {
+
+color: #484848;
+font-weight: 100;
+font-size: 18px;
+margin-bottom: 25px;
+
+}
+
+a.discover-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #ef6400; /* Orange background color */
+color: #fff; /* White text color */
+text-decoration: none;
+border-radius: 5px;
+font-size: 18px;
+transition: background-color 0.3s ease;
+margin-bottom: 30px;
+}
+
+a.discover-button:hover {
+background-color: #d04c00; /* Darker orange on hover */
+}
