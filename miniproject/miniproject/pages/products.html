@@ -39,7 +39,7 @@
         <li><a href="login.html">Login</a></li> <!-- Link to login.html -->
         <li><a href="signup.html">Sign Up</a></li> <!-- Link to signup.html -->
         <li><a href="../chat/chat-app.html">Chat</a></li>
-        <li><a href="account.html">Account</a></li>
+        <li><a href="account.html">My Cart</a></li>
       </ul>
     </nav>
   </header>
@@ -52,6 +52,26 @@
     <p>&copy; 2023 E-Marketplace</p>
   </footer>
   <script>
+
+    // Function to handle adding products to the cart
+    function addToCart(product) {
+      let cart = JSON.parse(localStorage.getItem('cart')) || [];
+      const existingProductIndex = cart.findIndex(item => item.name === product.name);
+  
+      if (existingProductIndex !== -1) {
+          // If the product already exists in the cart, increase the quantity
+          cart[existingProductIndex].quantity++;
+      } else {
+          // If the product is not in the cart, add it with quantity 1
+          product.quantity = 1;
+          cart.push(product);
+      }
+  
+      localStorage.setItem('cart', JSON.stringify(cart));
+      alert(product.name + ' has been added to your cart.');
+  }
+  
+
     fetch('http://localhost:8000/product-list.json')
       .then(response => response.json())
       .then(data => {
@@ -69,6 +89,12 @@
           data[category].forEach(product => {
             const productDiv = document.createElement('div');
             productDiv.className = 'product-card';
+            
+          const addToCartButton = document.createElement('button');
+          addToCartButton.textContent = 'Add to Cart';
+          addToCartButton.onclick = function() { addToCart(product); };
+          productDiv.appendChild(addToCartButton);
+  
 
             const productImage = document.createElement('img');
             productImage.src = product.image;
@@ -84,7 +110,7 @@
             productDiv.appendChild(productDetail);
 
             const productPrice = document.createElement('span');
-            productPrice.textContent = `$${product.price}`;
+            productPrice.textContent = `Rs.${product.price}`;
             productDiv.appendChild(productPrice);
 
             categoryContainer.appendChild(productDiv);
