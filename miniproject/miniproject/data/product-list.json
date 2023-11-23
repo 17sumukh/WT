@@ -1,58 +1,19 @@
 {
   "Apples": [
     {
-      "id": 2,
-      "name": "Product 2 ",
+      "id": 1,
+      "name": "Ambri Apples",
+      "price": "500",
+      "detail": "Apples come from the lush green Kashmir valley",
       "image": "https://www.ripleys.com/wp-content/uploads/2020/05/shutterstock_577486126-1024x768.jpg"
     },
     {
-      "id": 2,
-      "name": "Product 2",
+      "id": 1,
+      "name": "Irish peach",
+      "price": "450",
+      "detail": "sweet taste, a peachy aroma and flavour of them",
       "image": "https://media.post.rvohealth.io/wp-content/uploads/2020/09/Do_Apples_Affect_Diabetes_and_Blood_Sugar_Levels-732x549-thumbnail-1-732x549.jpg"
-    },
-    {
-      "name": "hero Product",
-      "detail": "Lorem ipsum dolor sit amet",
-      "price": "99",
-      "hero": "OMG This just came out today!",
-      "image": "http://placehold.it/940x300/999/CCC"
-    },{
-      "name": "Product 1",
-      "detail": "Lorem ipsum dolor sit amet",
-      "price": "99",
-      "info": "This is the latest and greatest product from Derp corp.",
-      "image": "http://placehold.it/300x300/999/CCC"
-    },{
-      "name": "Product 2",
-      "detail": "Lorem ipsum dolor sit amet",
-      "price": "99",
-      "offer": "BOGOF",
-      "image": "http://placehold.it/300x300/999/CCC"
-    },{
-      "name": "Product 3",
-      "detail": "Lorem ipsum dolor sit amet",
-      "price": "99",
-      "image": "http://placehold.it/300x300/999/CCC"
-    },{
-      "name": "Product 4",
-      "detail": "Lorem ipsum dolor sit amet",
-      "price": "99",
-      "offer": "No srsly GTFO",
-      "image": "http://placehold.it/300x300/999/CCC"
-    },{
-      "name": "Product 5",
-      "detail": "Lorem ipsum dolor sit amet",
-      "price": "99",
-      "image": "http://placehold.it/300x300/999/CCC"
-    },{
-      "name": "Product 6",
-      "detail": "Lorem ipsum dolor sit amet",
-      "price": "99",
-      "info": "This is the latest and greatest product from Derp corp.",
-      "offer": "info with offer",
-      "image": "http://placehold.it/300x300/999/CCC"
     }
-    
   ],
 
 
@@ -62,138 +23,166 @@
       "detail": "Best Top Quality Pure Original 100% Organic ",
       "price": "999",
       "info": "Finest quality of saffron that contains red stigmas, picked up by the hand",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "image": "https://www.anveshan.farm/cdn/shop/products/1_1__png_e9276f81-3e02-41ac-9c45-c24773ad6288.jpg?v=1672827318"
     },{
       "name": "Lacha saffron",
       "detail": " Original 100% Organic ",
       "price": "899",
       "info": "Contains yellow stigmas mixed with the red ones",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "image": "https://www.jiomart.com/images/product/original/rvguppytn2/la-casa-original-lacha-kashmiri-saffron-kesar-1-gm-pack-of-2-product-images-orvguppytn2-p591750081-2-202205310523.jpg?im=Resize=(420,420)"
     }
   ],
 
 
   "Clothing": [
     {
-      "name": "Casual Shirt",
-      "detail": "Comfortable cotton shirt",
-      "price": "25",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Phiran for males",
+      "detail": "made of loch wool",
+      "price": "1500",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTM70PkFsrpgXikiPT8e9OTgalv57937s9bA55KxkLhTyWAhJP3Q2wRaj5ZKE2djjIp_eFLHw-yQSfF_JzZpowasemdpeYKQEzjBH2iTcnV&usqp=CAE"
     },
     {
-      "name": "Casual Shirt",
-      "detail": "Comfortable cotton shirt",
-      "price": "25",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Phiran for females",
+      "detail": "made of loch wool",
+      "price": "1500",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRO5nHczsTVTOG6z8qfW747X__BbKrdS7FzkCJ0nRTbtqni1QViDWpwXPFLmVnYSKJWcQAAe6so0DO0O2rz1KM6pmwkAB31OjMl17VCuRHhkXskCWcbW-jA&usqp=CAE"
     },
     {
-      "name": "Casual Shirt",
-      "detail": "Comfortable cotton shirt",
-      "price": "25",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Pashmina shawls",
+      "detail": "fine variant of shawls spun from cashmere wools",
+      "price": "1999",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTh47bKrf3ZW3A-y7cooQtSeZ8kzKYhZTNGR95eugGtPIOtCJkDcUifp51SvgUl0WQdazNwjc0d2iAR-N8tDVcWAIPQLMxWrUJXppdYtrR7Xr5ZxmFMpaec2A&usqp=CAc"
     },
     {
-      "name": "Casual Shirt",
-      "detail": "Comfortable cotton shirt",
-      "price": "25",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Poncho shrug",
+      "detail": "Top Embroidery with Silk Lining",
+      "price": "1599",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRG5BQ1TBFv_RLgO460XkQeq3lyTpgsR_8lGa0HKgxnTt2jCHd8Pdb_ul6eaz2_T7r2rt-vpThI-s2rfrMVk9mzOmhRBUjpybu8PoSGCSfY1xZ1NAIcjeXVIQ&usqp=CAE"
     },
     {
-      "name": "Casual Shirt",
-      "detail": "Comfortable cotton shirt",
-      "price": "25",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Cardigan",
+      "detail": "Perfect Layering Piece for Your Winter Wardrobe",
+      "price": "1999",
+      "image": "https://images.meesho.com/images/products/339947756/6cpsn_512.webp"
     },
     {
-      "name": "Casual Shirt",
-      "detail": "Comfortable cotton shirt",
-      "price": "25",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Kashmiri aari wollen kurta set",
+      "detail": "timeless classics that never go out of style",
+      "price": "2500",
+      "image": "https://www.houseofchikankari.in/cdn/shop/files/House-Of-Chikankari-Kashmiri-Aari-Woolen-Straight-Kurta-Set-Mustard-00003.jpg?v=1699597383&width=720"
+    },
+    {
+      "name": "Shawl",
+      "detail": "Kashmir Handloom Wool Printed Men Shawl",
+      "price": "1000",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTvn5Sl47nG5UQkfpWYepPAvQ22snaVIJhvIUOHkUUjezcPZicm9A8dDdiEjtUWc8skAP_BLzGjzmNoiRax-7kLkAvHck53sxgDr6r4cG18JMQfAOWciHj6fQ&usqp=CAE"
     }
   ],
 
 
-  "Sweets": [
+  "Dryfruits": [
     {
-      "name": "Kashmiri Shufta",
-      "detail": "Delicious mix of nuts and sweets",
-      "price": "20",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Almonds",
+      "detail": "Organic And 100% Free From Any Preservatives",
+      "price": "420",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSLi7ppCzLpvtI48JpOZ3JZfVvL74yLKYmuGgDZdbwxZnEr83TrQORBpKmuBBEgu9Xc99l4YW_MqvY6FeJoxvaazgy0D4g9iFzaF4doEtIh&usqp=CAE"
     },
     {
-      "name": "Kashmiri Shufta",
+      "name": "Cashews",
       "detail": "Delicious mix of nuts and sweets",
-      "price": "20",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "price": "799",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRI_ZF2lrkfrZn3pDBwmLERlV4C3rJ_nQ2OThxuOpo_CjytD2HZGSge_-ZBVXXKa2WmYdwlfQoAwnLY0Tc9JXBQZGYUU71ijS8cAhHjPCFf&usqp=CAE"
     },
     {
-      "name": "Kashmiri Shufta",
-      "detail": "Delicious mix of nuts and sweets",
-      "price": "20",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Raisins",
+      "detail": "Exotics Pure Kashmiri Black Raisins (Zeerish) ",
+      "price": "320",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSPPn08GUAPFp0sKV-tQsRQN1d4E0kx6xt93nFmsZUB_qRDUuVJEbNgjRIWlMmaODYe_cVsaG1bQslbvvgBlYViKqjv07b0jyeY5LzyvDFGmmdNjLBN4mYdvA&usqp=CAE"
     },    {
-      "name": "Kashmiri Shufta",
-      "detail": "Delicious mix of nuts and sweets",
-      "price": "20",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Figs",
+      "detail": "Exotic figs",
+      "price": "1000",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRRhQzZwdt-yZuBubvOKZarI-Tgz9nfTZBCopwGkUvN7HPP3xws5sS2maQJXG48oVXHNt2-0QPrVZu0h1INg_yewrYC0CABKTzB-Noteu_z41H6ncScXt-y&usqp=CAE"
     },    {
-      "name": "Kashmiri Shufta",
-      "detail": "Delicious mix of nuts and sweets",
-      "price": "20",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Walnuts",
+      "detail": "Exotic walnuts",
+      "price": "420",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTbk8k-CnRDtpRTWLiFuePkC1gfTMJMPLkg3aidgylG7ok1Al8OUUibdH6n1WMmsO_HJhamE-pUvDwMp7Q3NOT-NfZXyk0FXtgpOPFPs_-U&usqp=CAE"
     },    {
-      "name": "Kashmiri Shufta",
-      "detail": "Delicious mix of nuts and sweets",
-      "price": "20",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Dryfruit mix",
+      "detail": "Delicious mix of nuts",
+      "price": "799",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSgkVh7VfSaDNWkovqlYXG1QJktEQcHzg0kpeYhQXnfGaFWG9_H33SEXQrz9A2WK9rmLojbfOOFxMwv1VIwHAHNwZtpL7eVyXhZjmSp47VY88CMWtJaB89clQ&usqp=CAE"
     }
   ],
 
 
   "Home-Accessories": [
     {
-      "name": "Decorative Vase",
-      "detail": "Ceramic vase for home decor",
-      "price": "45",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Matka Table Lamp",
+      "detail": "Handmade Wooden Intricate Kashmiri Carving",
+      "price": "2500",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS82mbuAomFXd-yf8-0b20c69shucusaZfhq-AJG8tYRueePXOFV-OE-ZPgCaE3ZRkHoRPK6T_FNr-BR4yj_diiufTWoy2ABEZJWBKlKbme&usqp=CAE"
     },
     {
-      "name": "Decorative Vase",
-      "detail": "Ceramic vase for home decor",
-      "price": "45",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Kashmiri shikara",
+      "detail": "Peer Wallnut Wood Hand Made",
+      "price": "999",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcS4gbAZ0FItj9UyKf_WeDgG3-iYIpE-_ELjKM56-QHDM1J32JGVoKKAh8vtTn2zIKeyj5CCKsGC-MHxwGvqr6WnFfJs3QesEgh99F4LP0P3Rm7YkLs83O-7jQ&usqp=CAE"
     },    {
-      "name": "Decorative Vase",
-      "detail": "Ceramic vase for home decor",
-      "price": "45",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Carpet",
+      "detail": "Kashmir Floral design Silk Carpet",
+      "price": "23000",
+      "image": "https://aceola.com/wp-content/uploads/2019/10/294279.jpg"
     },
     {
-      "name": "Decorative Vase",
-      "detail": "Ceramic vase for home decor",
-      "price": "45",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Kashmiri glass vase",
+      "detail": "Hand Crafted Navy Blue Color Kashmiri Glass Pattern Flower Brass Vase",
+      "price": "499",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTVlEjVWM0Zb3aw6KCQkBDdujAF6FPoMCrkIaFPZwvypzeoDTS316FuYZrhdcYmvRyqPuxf_D_S8-4aZyZ2dhwLpOrtD9fO6uQc5A7P9eN5&usqp=CAE"
     },
     {
-      "name": "Decorative Vase",
-      "detail": "Ceramic vase for home decor",
-      "price": "45",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Wall plates",
+      "detail": "Metal is finished with enamel transfer print",
+      "price": "1200",
+      "image": "https://www.ritualistic.in/cdn/shop/files/wall-decor-kashmiri-wall-plates-set-of-5-ritualistic-kashmiri-wall-plates-wall-arts-for-home-decoration-living-room-bedroom-office-decor-wall-sculpture-set-of-5-multi-color-6161139389_8e93f601-63fc-439a-89dd-6b43b3b3c8af_900x.jpg?v=1690867586"
     },
     {
-      "name": "Decorative Vase",
-      "detail": "Ceramic vase for home decor",
-      "price": "45",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Cushion cover",
+      "detail": "Natural Home Decor Decorative Cushion Covers 16inch x 16inch",
+      "price": "599",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTs6Vt-HWkE9GImxmBvzQUSYKkPTaLBoofMuPPcXtsyRcIB1lXYT9YC6QSdZ2o7fvNoHbTx4WnlDCwFiErIkYSAJSs8xBhlbgCzLY1L0rIDZJEyOipHS9zakgg&usqp=CAE"
     },
     {
-      "name": "Decorative Vase",
-      "detail": "Ceramic vase for home decor",
-      "price": "45",
-      "image": "http://placehold.it/300x300/999/CCC"
+      "name": "Wooden coaster",
+      "detail": "Kashmiri Handpainted Wooden Coasters with Holder",
+      "price": "499",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR9qXYBtlV5g3bu-bLyfEeGU-LbDU1oYWaqp1LkBRCh6cgsG1lh82cZr3gUUD2KOpmYPg0PM8bRrM12iddbBM7svmXDMoW6-272GgyvcV4A&usqp=CAE"
+    },
+    {
+      "name": "Multipurpose Basket",
+      "detail": "Handcrafted Kashmiri Bamboo Eco-Friendly Utility",
+      "price": "200",
+      "image": "https://prokart.co/wp-content/uploads/2022/06/PCB-KB-002.jpg"
+    },
+    {
+      "name": "Pencil/Pen holder",
+      "detail": "Depicts paper mache art",
+      "price": "250",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcS6vxmUnqN3gsjy2URHJveFjlrJdvag9aTjvhSLCL7ztFL-O5d21MJ_-izGplWck63mzNOok_K_9vhPwa48rHzYV4xZEWKzx4yTPMupoZB5IwqyDVMekcTY&usqp=CAE"
+    },
+    {
+      "name": "Candle set",
+      "detail": "Paper Mache Candle Set of 2",
+      "price": "350",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSpQ6X1hRvkuWTPGAsNKZW85Z_8aC1_sv_vVS0ZsvPddEWPlYiz_BuuQ65XLuY10MhJehhPfIhjeOMfi0Pfa5c1A5Dfjo0fFCeV3xsZ8C9bQIisLr1W6SC1&usqp=CAE"
+    },
+    {
+      "name": "Necklace",
+      "detail": "Yawun Antique Kashmiri Handmade Kashmiri Necklace",
+      "price": "2200",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQvoRbTFvGuOywDbf1i9_JUwp3LPoLU-zbZVKY8fYsScbd4A2cpLkz-s1ict-OVAkSLSXjSoTB2H5J7yZXr8GDwyjH5z2kLJzQk4IeMkrc&usqp=CAE"
     }
   ]
 
 }
-
-
